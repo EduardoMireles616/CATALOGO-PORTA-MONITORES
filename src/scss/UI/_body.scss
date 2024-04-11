@@ -1,0 +1,38 @@
+@use '../base/custom';
+
+body {
+    background-color: rgb(150, 149, 149);
+}
+
+h1{ 
+    font-family: custom.$titles;
+    color: custom.$primary;
+    font-size: 10vh;
+    text-align: center;
+}
+
+h2{
+    font-family: custom.$titles;
+    color: white;
+    font-size: 3vh;
+    text-align: left;
+    margin-top: 10vh;
+}
+
+#principal-image {
+    width: 200px;
+    margin-top: 10%;
+}
+
+#descripcion-producto {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center center;
+    margin-bottom: 4vh;
+}
+
+#button-precio {
+    margin-left: auto;
+    font-size: 1.6rem;
+}
